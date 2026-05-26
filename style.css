@@ -1,0 +1,58 @@
+body {
+    color: #4A3B2A;
+    background-color: #F6F3C2;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-family: "Protest Riot", sans-serif;
+    color: #C2410C;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+a:link{
+    color: #4A3B2A;
+}
+
+a:visited {
+    color: #7A3E9D;
+}
+
+a:hover {
+    color: #C2410C;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #4A3B2A;
+}
+
+h2,
+h3 {
+    color: #C2410C;
+    font-weight: bold;
+    font-style: italic;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+footer {
+    font-size: 30px;
+}
