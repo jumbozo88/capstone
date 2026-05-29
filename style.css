@@ -7,6 +7,17 @@ body {
     padding-left: 10px;
 }
 
+body::before {
+    background-image: url(./Website/images/backgroundimage.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity: 0.08;
+    content: "";
+    position:fixed;
+    inset: 0;
+    z-index: -1;
+}
+
 .protest-riot-regular {
   font-family: "Protest Riot", sans-serif;
   font-weight: 400;
@@ -37,22 +48,33 @@ a:active {
     color: #4A3B2A;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 h2,
 h3 {
     color: #C2410C;
     font-weight: bold;
-    font-style: italic;
 }
 
 section {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 img {
-    border: 2px solid black;
-    border-radius: 15px;
+    border-radius: 3px;
 }
 
-footer {
-    font-size: 30px;
+.banner {
+    height: 350px;
+    max-width: 1050px;
+    margin: auto;
+    background-image: url(./Website/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
 }
